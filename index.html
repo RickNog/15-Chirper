@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Chirper</title>
+<!-- bower:css -->
+<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="bower_components/toastr/toastr.css" />
+<!-- endbower -->
+
+<!-- inject:css -->
+<link rel="stylesheet" href="/app/styles/bootstrap.united.min.css">
+<link rel="stylesheet" href="/app/styles/styles.css">
+<!-- endinject -->
+</head>
+
+<body>
+<!-- bower:js -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="bower_components/toastr/toastr.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+<!-- endbower -->
+<div ui-view></div>
+<!-- inject:js -->
+<script src="/app/app.js"></script>
+<script src="/app/auth.controller.js"></script>
+<script src="/app/auth.factory.js"></script>
+<script src="/app/auth.interceptor.js"></script>
+<script src="/app/chirp.controller.js"></script>
+<script src="/app/chirp.factory.js"></script>
+<!-- endinject -->
+</body>
+</html>
