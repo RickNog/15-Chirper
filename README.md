@@ -2,7 +2,7 @@
 
 <img src="http://i.imgur.com/w3zISX1.png" alt="" />
 
-In this project, I built social network where people can register for a free account and chirp their thoughts in 240 characters or less to the world!
+In this project, I built a social network website where people can register for a free account and chirp their thoughts in 240 characters or less to the world!
 
 ## App Requirements
 - Users need to be able to register for an account.
